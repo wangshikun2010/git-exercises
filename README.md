@@ -111,7 +111,6 @@ checkout
 	git add file
 	git commit --amend -m 'message'
 
-
 移动文件
 ------
 a. 	mkdir lib
