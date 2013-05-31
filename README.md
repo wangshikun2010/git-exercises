@@ -105,3 +105,18 @@ checkout
 	git reset --hard 标签 或者 git reset --hard <hast>
 	git hist --all
 	git tag -d oops
+
+修正提交
+--------
+	git add file
+	git commit --amend -m 'message'
+
+
+移动文件
+------
+a. 	mkdir lib
+	git mv file lib
+b. 	mkdir lib 
+	mv file lib
+	git add lib/file
+	git rm file
