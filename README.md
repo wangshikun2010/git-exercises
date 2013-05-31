@@ -85,3 +85,23 @@ checkout
 	git reset 或者 git reset HEAD file
 	git checkout file
 	git status
+
+给版本打标签
+-------
+	git tag v1
+	git checkout v1^
+	cat file
+	git tag v1-beta
+	git checkout v1
+	git checkout v1-beta
+	git tag
+
+撤销提交
+-------
+	git add file
+	git commit -m 'message'
+	git revert HEAD --no-edit
+	git tag oops
+	git reset --hard 标签 或者 git reset --hard <hast>
+	git hist --all
+	git tag -d oops
