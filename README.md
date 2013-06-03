@@ -113,9 +113,10 @@ checkout
 
 移动文件
 ------
-a. 	mkdir lib
-	git mv file lib
-b. 	mkdir lib 
-	mv file lib
-	git add lib/file
-	git rm file
+	a. 	mkdir lib
+		git mv file lib
+		
+	b. 	mkdir lib 
+		mv file lib
+		git add lib/file
+		git rm file
